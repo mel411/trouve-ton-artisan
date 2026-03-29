@@ -89,7 +89,11 @@ function FicheArtisan() {
 
               <p>
                 Site web :{" "}
-                <a href="#">
+                <a
+                  href={`https://www.${artisan.name.replace(" ", "").toLowerCase()}.fr`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
                   www.{artisan.name.replace(" ", "").toLowerCase()}.fr
                 </a>
               </p>
