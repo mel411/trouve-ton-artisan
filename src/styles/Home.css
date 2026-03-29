@@ -1,0 +1,10 @@
+container {
+  padding: 40px 20px 100px;
+  margin-top: 0;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  width: 300px;
+  justify-content: flex-start;
+}

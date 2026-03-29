@@ -1,0 +1,84 @@
+.liste-container {
+  padding-top: 5px;
+  padding-bottom: 60px;
+}
+
+.category-text {
+  margin-top: none;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color:#0074c7;
+}
+
+.search-input {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 8px;
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid #0074c7;
+  outline: none;
+  font-size: 14px;
+}
+
+/* GRID */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 260px;
+  height: 215px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Nom */
+.card h3 {
+  color: #1e5b8f;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Lien */
+.card a {
+  color: #1e5b8f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.stars {
+  margin: 8px 0;
+}
+
+.star {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.star.filled {
+  color: black;
+}
+
+.star.empty {
+  color: #ccc;
+}

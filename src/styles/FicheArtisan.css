@@ -1,0 +1,168 @@
+/* FICHE ARTISAN */
+
+.fiche-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.fiche-top {
+  display: grid;
+  grid-template-columns: 420px 320px; 
+  column-gap: 120px; 
+  align-items: start;
+  margin-bottom: 60px;
+}
+
+.fiche-left {
+  flex: 0 0 55%;
+  width: 420px;
+}
+
+.fiche-left h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00497c;
+  margin-bottom: 5px;
+}
+
+.fiche-left p {
+  margin: 4px 0;
+  color: #000000;
+  font-size: 15px;
+}
+
+.stars {
+  margin: 10px 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.star.filled {
+  color: #000;
+}
+
+.star.empty {
+  color: #ccc;
+}
+
+/* Lien */
+.fiche-left a {
+  color: #0074c7;
+  text-decoration: none;
+}
+
+.fiche-left a:hover {
+  text-decoration: underline;
+}
+
+.fiche-right {
+  margin-top: 55px;
+  margin-left: 100px;
+  width: 320px;
+}
+
+.fiche-right h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #00497c;
+  font-weight: 700;
+}
+
+/* formulaire */
+.fiche-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* labels */
+.fiche-form label {
+  font-size: 14px;
+  color: #000000;
+}
+
+.fiche-form input,
+.fiche-form textarea {
+  border: none;
+  border-bottom: 1px solid #0074c7;
+  padding: 4px 0;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 350px;
+}
+
+.fiche-form textarea {
+  resize: none;
+  height: 60px;
+}
+
+.fiche-form button {
+  margin-top: 8px;
+  width: 130px;
+  padding: 10px;
+  background: #0074c7;
+  color: white;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.fiche-form button:hover {
+  background: #005fa3;
+}
+
+/* À PROPOS */
+
+.fiche-about {
+  max-width: 600px;
+}
+
+.fiche-about h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00497c;
+  margin-bottom: 10px;
+}
+
+.fiche-about p {
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.fiche-about::before {
+  content: "";
+  display: none;
+  width: 30px;
+  height: 4px;
+  background: #82b864;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .fiche-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .fiche-form button {
+    width: 100%;
+  }
+}
