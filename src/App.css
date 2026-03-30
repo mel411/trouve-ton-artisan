@@ -58,7 +58,7 @@ header {
 
 .logo {
   height: 160px;
-  margin-left: none;
+  margin-left: 0;
 }
 
 /* DROITE */
@@ -81,8 +81,8 @@ header {
 
 .search input {
   width: 100%;
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
   background: transparent;
   padding: 6px 30px 6px 0;
   font-size: 15px;
@@ -126,7 +126,7 @@ header {
 }
 
 .menu a {
-  text-decoration: none;
+  text-decoration: 0;
   color: #444;
   font-size: 16px;
 }
