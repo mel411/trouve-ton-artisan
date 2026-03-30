@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+#  Trouve ton artisan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Description
 
-## Available Scripts
+Ce projet est une application web développée avec React qui permet de rechercher facilement des artisans selon leur catégorie.
 
-In the project directory, you can run:
+L’utilisateur peut parcourir les artisans, filtrer par catégorie, effectuer une recherche, consulter une fiche détaillée et contacter un artisan via un formulaire.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Technologies utilisées
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React
+* React Router
+* Sass (SCSS)
+* Bootstrap
+* CSS
+* Netlify (déploiement)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Prérequis
 
-### `npm run build`
+Avant de lancer le projet, vous devez avoir installé :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Node.js (version récente recommandée)
+* npm (installé avec Node.js)
+* Un navigateur web (Chrome, Edge…)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Installation
 
-### `npm run eject`
+Cloner le projet :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/mel411/trouve-ton-artisan.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Accéder au dossier :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd trouve-ton-artisan
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installer les dépendances :
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##  Lancement du projet
 
-### Code Splitting
+Démarrer le serveur de développement :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Puis ouvrir dans le navigateur :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##  Fonctionnalités
 
-### Advanced Configuration
+* Navigation avec React Router
+* Filtrage des artisans par catégorie
+* Recherche dynamique (nom, métier, ville)
+* Pages individuelles pour chaque artisan
+* Formulaire de contact
+* Page 404 personnalisée
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+##  Déploiement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Le site est disponible en ligne :
+https://leafy-alfajores-649204.netlify.app/
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Validation
+
+* HTML validé W3C 
+* CSS validé W3C 
+
+---
+
+## Organisation
+
+Le projet est structuré avec :
+
+* des composants réutilisables (Header, Card, Footer)
+* des pages (Home, ListeArtisans, FicheArtisan, NotFound)
+* des données centralisées
+
+---
+
+## Auteur
+
+Melina Yorgova
+Développeuse web
