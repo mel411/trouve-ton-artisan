@@ -4,7 +4,7 @@ import Card from "../components/Card";
 import artisans from "../data/artisans";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-import "../styles/ListeArtisans.css";
+import "../styles/ListeArtisans.scss";
 import { Helmet } from "react-helmet";
 
 function ListeArtisans() {
@@ -42,7 +42,7 @@ function ListeArtisans() {
 
       <Header />
 
-      <div className="container">
+      <div className="container mt-4">
         <main className="liste-container">
 
           {/* TITRE */}
@@ -57,11 +57,11 @@ function ListeArtisans() {
 
           {/* RECHERCHE */}
           <input
+            className="form-control search-input"
             type="text"
             placeholder="Rechercher un artisan..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="search-input"
           />
 
           {/* CARDS */}

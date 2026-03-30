@@ -26,8 +26,10 @@ function NotFound() {
 
         <p>La page que vous recherchez n'existe pas ou a été déplacée.</p>
 
-        <Link to="/" className="notfound-button">
-          Retour à l'accueil
+        <Link to="/">
+          <button className="btn btn-primary rounded-pill px-4 py-2">
+           Retour à l'accueil
+          </button>
         </Link>
       </main>
 
